@@ -60,7 +60,9 @@ function typeText(delay) {
     setTimeout(() => {
       let calculated_delay = 50;
 
-      if (text_char_index < text.length) {
+      if (text_char_index === text.length - 1) {
+        calculated_delay = 2000;
+      } else if (text_char_index < text.length) {
         const next_char = text[text_char_index].toLowerCase();
         const ok_chars = [" ", "'"];
 
