@@ -65,4 +65,8 @@ body {
     width: 320px;
     height: 320px;
   }
+
+  .text {
+    font-size: 1rem;
+  }
 }
