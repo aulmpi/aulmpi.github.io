@@ -1,7 +1,8 @@
 const TEXTS = [
   `Hi, mpii gimana hari ini? happy ga?
-  aku harap kamu selalu bahagia dimanapun dan kapanpun,
-  mpi makasih ya udah mau aku repotin ini itu aku selalu nyusahin kamu dalam hal apapun,
+  aku harap kamu selalu bahagia dimanapun dan kapanpun.`,
+
+  `mpi makasih ya udah mau aku repotin ini itu aku selalu nyusahin kamu dalam hal apapun,
   apalagi sekarang setiap menit aku kesakitan setiap menit aku bawel ke kamu ngeluh sakit,
   maafin aku mpi aku sayang bgt sama kamu lebih dari apapun di diri aku.`,
 

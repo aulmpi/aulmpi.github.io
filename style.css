@@ -1,12 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   width: 100vw;
   height: 100vh;
-  background-image: url("assets/clouds.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: none;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#video-background {
+  position: fixed;
+  inset: 0 0 0 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .container {
@@ -16,17 +28,6 @@ body {
   width: 75%;
 }
 
-@media only screen and (max-width: 600px) {
-  .container {
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .slides {
-    margin: 0;
-  }
-}
-
 .slides {
   margin: 0px 80px 0px 200px;
   width: 320px;
@@ -34,6 +35,22 @@ body {
 }
 
 .text {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   max-height: 320px;
+  color: rgb(173, 113, 24);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .slides {
+    width: 320px;
+    height: 320px;
+    margin: 0;
+  }
 }
